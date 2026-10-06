@@ -12,6 +12,8 @@ import mediapipe as mp
  
 from gestureLogic import Smoother, classify, finger_states
 from ui import InfoPanel
+
+from audio import NumberSpeaker
  
 BASE = Path(__file__).parent
 fonts = sorted((BASE / "assets" / "fonts").glob("*.ttf"))
@@ -30,6 +32,10 @@ smoother = Smoother(window=8, needed=6)
 panel = None
 show_skeleton = True
 debug = False
+
+speaker = NumberSpeaker(BASE / "assets" / "audio")
+speaker.prepare()
+last_number = None
  
 with mp_hands.Hands(
     max_num_hands=1,
@@ -65,7 +71,11 @@ with mp_hands.Hands(
  
         number = smoother.update(raw)   # stable value, no flicker
         panel.draw(frame, number)
- 
+        if number != last_number:
+           if number is not None:
+             speaker.say(number)
+           last_number = number
+
         cv2.imshow("Chinese Counting Gestures", frame)
         key = cv2.waitKey(1) & 0xFF
         if key == ord("q"):
@@ -74,6 +84,7 @@ with mp_hands.Hands(
             show_skeleton = not show_skeleton
         elif key == ord("d"):
             debug = not debug
+
  
 cap.release()
 cv2.destroyAllWindows()
