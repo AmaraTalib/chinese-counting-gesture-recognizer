@@ -39,11 +39,11 @@ Built with Python, OpenCV and MediaPipe as a hands-on computer vision learning p
 
 | 1 | 2 | 3 | 4 | 5 |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="demo/gestures/1.jpg" width="120"> | <img src="demo/gestures/2.jpg" width="120"> | <img src="demo/gestures/3.jpg" width="120"> | <img src="demo/gestures/4.jpg" width="120"> | <img src="demo/gestures/5.jpg" width="120"> |
+| <img src="demo/gestures/1.png" width="120"> | <img src="demo/gestures/2.png" width="120"> | <img src="demo/gestures/3.png" width="120"> | <img src="demo/gestures/4.png" width="120"> | <img src="demo/gestures/5.png" width="120"> |
 
 | 6 | 7 | 8 | 9 | 10 |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="demo/gestures/6.jpg" width="120"> | <img src="demo/gestures/7.jpg" width="120"> | <img src="demo/gestures/8.jpg" width="120"> | <img src="demo/gestures/9.jpg" width="120"> | <img src="demo/gestures/10.jpg" width="120"> |
+| <img src="demo/gestures/6.png" width="120"> | <img src="demo/gestures/7.png" width="120"> | <img src="demo/gestures/8.png" width="120"> | <img src="demo/gestures/9.png" width="120"> | <img src="demo/gestures/10.png" width="120"> |
 
 ## 🧠 How it works
 
