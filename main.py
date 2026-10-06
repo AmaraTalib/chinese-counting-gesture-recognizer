@@ -27,6 +27,11 @@ mp_draw = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+
+WINDOW = "Chinese Counting Gestures"
+cv2.namedWindow(WINDOW, cv2.WINDOW_NORMAL)
+cv2.resizeWindow(WINDOW, 800, 450)
+cv2.moveWindow(WINDOW, 900, 80)   # push it right so your code stays visible
  
 smoother = Smoother(window=8, needed=6)
 panel = None
@@ -76,7 +81,8 @@ with mp_hands.Hands(
              speaker.say(number)
            last_number = number
 
-        cv2.imshow("Chinese Counting Gestures", frame)
+        #cv2.imshow("Chinese Counting Gestures", frame)
+        cv2.imshow(WINDOW, frame)
         key = cv2.waitKey(1) & 0xFF
         if key == ord("q"):
             break
