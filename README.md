@@ -147,6 +147,6 @@ If a gesture is unreliable on your setup, adjust the constants at the top of `ge
 ## 👤 Author
 
 **Amara Talib**
-[LinkedIn](https://linkedin.com/in/Amara Talib) · [GitHub](https://github.com/AmaraTalib)
+[LinkedIn](https://www.linkedin.com/in/amara-talib) · [GitHub](https://github.com/AmaraTalib)
 
 ⭐ on the repo is appreciated! 
