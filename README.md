@@ -18,6 +18,16 @@ Built with Python, OpenCV and MediaPipe as a hands-on computer vision learning p
 - Works for **left or right hand**
 - Debug mode to see finger states live and tune the gestures
 
+### Gesture photos
+
+| 1 | 2 | 3 | 4 | 5 |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="demo/gestures/1.png" width="120"> | <img src="demo/gestures/2.png" width="120"> | <img src="demo/gestures/3.png" width="120"> | <img src="demo/gestures/4.png" width="120"> | <img src="demo/gestures/5.png" width="120"> |
+
+| 6 | 7 | 8 | 9 | 10 |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="demo/gestures/6.png" width="120"> | <img src="demo/gestures/7.png" width="120"> | <img src="demo/gestures/8.png" width="120"> | <img src="demo/gestures/9.png" width="120"> | <img src="demo/gestures/10.png" width="120"> |
+
 ## 🖐️ Gesture chart
 
 | Number | 汉字 | Pinyin | Gesture |
@@ -32,18 +42,6 @@ Built with Python, OpenCV and MediaPipe as a hands-on computer vision learning p
 | 8 | 八 | bā | Thumb + index out (L shape) |
 | 9 | 九 | jiǔ | Index finger bent like a hook |
 | 10 | 十 | shí | Closed fist |
-
-
-
-### Gesture photos
-
-| 1 | 2 | 3 | 4 | 5 |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="demo/gestures/1.png" width="120"> | <img src="demo/gestures/2.png" width="120"> | <img src="demo/gestures/3.png" width="120"> | <img src="demo/gestures/4.png" width="120"> | <img src="demo/gestures/5.png" width="120"> |
-
-| 6 | 7 | 8 | 9 | 10 |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="demo/gestures/6.png" width="120"> | <img src="demo/gestures/7.png" width="120"> | <img src="demo/gestures/8.png" width="120"> | <img src="demo/gestures/9.png" width="120"> | <img src="demo/gestures/10.png" width="120"> |
 
 ## 🧠 How it works
 
